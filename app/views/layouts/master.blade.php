@@ -25,6 +25,9 @@
 		</div>
 	</div>
 	@yield('content')
+	<div id="footer" class="row text-center">
+		<p>GANAPATIH &copy; 2014 | PHP Indonesia</p>
+	</div>
 	<script src="{{ asset('js/vendor/jquery.js') }}"></script>
 	<script src="{{ asset('js/foundation.min.js') }}"></script>
 	<script>$(document).foundation();</script>
